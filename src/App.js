@@ -1,9 +1,15 @@
 import React from "react";
-import {Header,Content,Footer} from './func-components'
+import MsgBox from "./class props";
 
 function App() {
   return(
-    [<Header/>,<Content/>,<Footer/>]
+    [<MsgBox
+      text="React & React Native"
+      color="red"
+      bgColor="#ccc"
+      fontSize="18px"
+      border="solid 3px black"
+    />]
   )
 }
 
