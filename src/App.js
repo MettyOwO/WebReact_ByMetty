@@ -1,16 +1,8 @@
 import React from "react";
-import MsgBox from "./class props";
+import {EventData2} from "./event-data"
 
 function App() {
-  return(
-    [<MsgBox
-      text="React & React Native"
-      color="red"
-      bgColor="#ccc"
-      fontSize="18px"
-      border="solid 3px black"
-    />]
-  )
+  return <EventData2/>
 }
 
 export default App;
