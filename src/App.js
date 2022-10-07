@@ -1,9 +1,9 @@
 import React from "react";
-import FormText from "./form-text";
+import FormValidation from "./form-validation";
 
 function App() {
   return(
-      <FormText/>
+      <FormValidation/>
   )
 }
 
